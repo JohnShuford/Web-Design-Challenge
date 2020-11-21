@@ -11,21 +11,34 @@
 
 <body>
   <div class = "row">
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="../Resources/Assets/globe2.svg" width="25" height="25" class="d-inline-block align-top" alt="" loading="lazy">
+        Latitude
+      </a>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="comparisons.html">Comparisons<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="data.html">Data<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="comparisons.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visualizations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="vsCloudiness.html">vsCloudiness</a>
+              <a class="dropdown-item" href="vsHumidity.html">vsHumidity</a>
+              <a class="dropdown-item" href="vsTemprature.html">vsTemprature</a>
+              <a class="dropdown-item" href="vsWindSpeed.html">vsWindSpeed</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
   <div class="container">

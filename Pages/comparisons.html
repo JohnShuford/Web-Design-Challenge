@@ -2,56 +2,65 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>Comparisions</title>
+  <title>Comparisons</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../Resources/Styling/style.css">
 </head>
 
 <body>
-
-    <div class="container">
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <header class="header">
-        <h1>Summary: Latitude vs X</h1>
-      </header>
-      <main>
-        <section class="posts">
-          <article class="post">
-              <h2>Comparision: Latitude vs X</h2>
-            <p>
-                Click any plot to get an in-depth analysis!
-            </p>
-          </article>
-          <article class="post">
-              <h2> vs. Max Temprature</h2>
-              <a>image 1</a>
-              <h2>vs. Humidity</h2>
-              <a>image 2</a>
-              <h2>vs. Cloudiness</h2>
-              <a>image 3</a>
-              <h2>vs. Wind Speed</h2>
-              <a>image 4</a>
-          </article>
-        </section>
-    </main>
-</div>
+  <div class = "row">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Comparison: Latitude vs X</h1>
+        <hr>
+        <p>
+          Click on any plot to get an in-depth analysis.
+        </p>
+        <div class = "images">
+          <h3>vs. Max Temprature</h3>
+          <a href="vsTemprature.html">
+            <img src="../Resources/Visualizations/vsTemprature.png" 
+            alt="Latitude vs. Temp Visualization">
+          </a>
+          <h3>vs Humidity</h3>
+          <a href="vsHumidity.html">
+            <img src="../Resources/Visualizations/vsHumidity.png"
+            alt="Latitude vs. Humidity Visualization">
+          </a>
+          <h3>vs Cloudiness</h3>
+          <a href="vsCloudiness.html">
+            <img src="../Resources/Visualizations/vsCloudiness.png" 
+            alt="Latitude vs Cloudiness Visualization">
+          </a>
+          <h3>vs Wind Speed</h3>
+          <a href="vsWindSpeed.html">
+            <img src="../Resources/Visualizations/vsWindSpeed.png"
+            alt="Latitude vs Wind Speed Visualization">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

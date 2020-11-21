@@ -9,55 +9,70 @@
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../Resources/Styling/style.css">
 </head>
 
 <body>
+  <div class = "row">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class = "col-md-8">
+        <h1 class="header">Summary: Latitude vs X</h1>
+        <img>
+        <article class="post">
+          <p>
+              The purpose of this project was to analyze how weather changes as you get closer
+              to the equator. To accomplish this analysis, we firtst pulled data from the OpenWeatherMap
+              API to assamble a dataset on over 500 cities. <br>
+              After assembling the dataset, we used Matplotlib to plot various aspects of the weather
+              vs. latitude. Factors we looked at included: temprature, cloudiness, wind speed, and 
+              humidity. This site provides the source data and visualizations created as part of the 
+              analysis, as well as explanations and discriptions of any trends and correlations witnessed.
+          </p>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <h2>Visualizations</h2>
+        <div class = "images">
+          <a href="vsTemp.html">
+            <img src="../Resources/Visualizations/Lat_Temp.png" 
+            alt="Latitide vs. Temp Visualization">
+          </a>
+          <a href="vsHumidity.html">
+            <img src="../Resources/Visualizations/Lat_Humidity.png"
+            alt="Latitide vs. Humidit Visualization">
+          </a>
+          <a href="vsCloudiness.html">
+            <img src="../Resources/Visualizations/Lat_Clouds.png" 
+            alt="Latitide vs Cloudiness Visualization">
+          </a>
+          <a href="vsWind.html">
+            <img src="../Resources/Visualizations/Lat_WindSpeed.png"
+            alt="Latitide vs Wind Speed Visualization">
+          </a>
+        </div>
+      </div>
 
-    <div class="container">
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <header class="header">
-        <h1>Summary: Latitude vs X</h1>
-      </header>
-      <main>
-        <section class="posts">
-          <article class="post">
-            <p>
-                The purpose of this project was to analyze how weather changes as you get closer
-                to the equator. To accomplish this analysis, we firtst pulled data from the OpenWeatherMap
-                API to assamble a dataset on over 500 cities. <br>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather
-                vs. latitude. Factors we looked at included: temprature, cloudiness, wind speed, and 
-                humidity. This site provides the source data and visualizations created as part of the 
-                analysis, as well as explanations and discriptions of any trends and correlations witnessed.
-            </p>
-          </article>
-          <article class="post">
-              <h3> 
-                  Visualizations
-              </h3>
-              <a>image 1</a>
-              <a>image 2</a>
-              <a>image 3</a>
-              <a>image 4</a>
-          </article>
-        </section>
+    </div>
     </main>
+    </div>
 </div>
 </body>
 </html>

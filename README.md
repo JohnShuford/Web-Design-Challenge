@@ -91,7 +91,9 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 ## Contact
 
 John Shuford - [LinkedIn](https://www.linkedin.com/in/john-shuford-data-analyst/) - johnshuford@me.com
+
 Project Link: [https://github.com/JohnShuford/Web-Design-Challenge](https://github.com/JohnShuford/Web-Design-Challenge)
+
 Deployed: [https://johnshuford.github.io/Web-Design-Challenge/](https://johnshuford.github.io/Web-Design-Challenge/)
 
 <!-- ACKNOWLEDGEMENTS -->

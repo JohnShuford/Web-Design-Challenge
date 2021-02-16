@@ -1,4 +1,4 @@
-This project was a chance for to develop and reinforce web development skills. Using HTML and CSS and Bootstrap I built and deployed a fully functioning comparision web page to visualize finding analysised from weather data.
+Using HTML and CSS and Bootstrap I built and deployed a fully functioning comparison web page to visualize finding analyzed from weather data.
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">

@@ -1,6 +1,6 @@
-Using HTML and Bootstrap I built and deployed a web page to visualize an analysis performed on weather data comparing the effect of latitude on several other primary weather indicators.
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
+Using HTML and Bootstrap I built and deployed a web page to visualize an analysis performed on weather data comparing the effect of latitude on several other primary weather indicators.
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -42,11 +42,8 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
-
-
+* HTML5
+* Bootstrap
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -90,41 +87,19 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
+John Shuford - [LinkedIn](https://www.linkedin.com/in/john-shuford-data-analyst/) - johnshuford@me.com
+Project Link: [https://github.com/JohnShuford/Web-Design-Challenge](https://github.com/JohnShuford/Web-Design-Challenge)
+Deployed: [https://johnshuford.github.io/Web-Design-Challenge/](https://johnshuford.github.io/Web-Design-Challenge/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* This project was completed for and under the supervision of the Trilogy team opperating the Data Analytics Bootcamp through the University of Denver.
+* Shoutouts to Svitlana Malenfant (Instructor)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555

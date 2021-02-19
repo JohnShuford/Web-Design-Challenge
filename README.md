@@ -15,6 +15,7 @@ Using HTML and Bootstrap I built and deployed a web page to visualize an analysi
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -29,22 +30,36 @@ Using HTML and Bootstrap I built and deployed a web page to visualize an analysi
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![plot](./Resources/Assets/HomePageScreenShot.png)
+![plot](./Resources/Assets/ComparisonScreenShot.png)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
+In this project we created an interactive and responsive web page to serve as a dashboard to display analysed weather data in a user friendly way. This project was built using HTML5 and Bootstrap to build the frame work then to make it responsive to any screen size. The homepage shares a beif introduction the dashboard and clicking into the visualizations themselves will give a more detailed discription the specific graph.
 
 ### Built With
 
-* HTML5
-* Bootstrap
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+It is important to make sure that you have these files refrenced in the head of your HTML file or nothing will show when you try and run the Bootstrap elements.
+
+CSS
+  ```sh
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384 MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  ```
+JS
+  ```sh
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  ```
+
 
 ### Installation
 
@@ -58,7 +73,41 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Here is a code example of a bootstrap navigation bar! They are faily simple to use and customize to any need you may have. Just make sure that you are calling all of the requisite files in the header of your HTML page.
+
+```sh
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <div class="box skyblue">
+          <img src="Resources/Assets/globe2.svg" width="25" height="25" class="d-inline-block align-top" alt="" loading="lazy">
+          Latitude
+        </div>
+      </a>
+      </button>
+      <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active mr-auto">
+            <a class="nav-link" href="docs/comparisons.html">Comparisons<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="docs/data.html">Data<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="comparisons.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="docs/vsCloudiness.html">vsCloudiness</a>
+              <a class="dropdown-item" href="docs/vsHumidity.html">vsHumidity</a>
+              <a class="dropdown-item" href="docs/vsTemprature.html">vsTemprature</a>
+              <a class="dropdown-item" href="docs/vsWindSpeed.html">vsWindSpeed</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+```
+
+For more Bootstrap documentation follow this link! https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 
 <!-- CONTACT -->

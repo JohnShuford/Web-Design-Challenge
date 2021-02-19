@@ -1,6 +1,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Using HTML and Bootstrap I built and deployed a web page to visualize an analysis performed on weather data comparing the effect of latitude on several other primary weather indicators. Take a look the deployed site [Here!](https://johnshuford.github.io/Web-Design-Challenge/)!
+Using HTML and Bootstrap I built and deployed a web page to visualize an analysis performed on weather data comparing the effect of latitude on several other primary weather indicators. Take a look the deployed site [Here](https://johnshuford.github.io/Web-Design-Challenge/)!
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">

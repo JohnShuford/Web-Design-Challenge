@@ -1,4 +1,4 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/john-shuford-data-analyst/]
 
 Using HTML and Bootstrap I built and deployed a web page to visualize an analysis performed on weather data comparing the effect of latitude on several other primary weather indicators. Take a look the deployed site [Here](https://johnshuford.github.io/Web-Design-Challenge/)!
 
